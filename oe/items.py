@@ -12,7 +12,7 @@ class OeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
-    title = scrapy.Field()
-    link = scrapy.Field()
+    school = scrapy.Field()
+    nrofstudents = scrapy.Field()
 
 
