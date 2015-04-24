@@ -13,6 +13,11 @@ class OeItem(scrapy.Item):
     # name = scrapy.Field()
     pass
     school = scrapy.Field()
-    nrofstudents = scrapy.Field()
+    st_core = scrapy.Field()
+    st_related = scrapy.Field()
+    country = scrapy.Field()
+    url = scrapy.Field()
+    year = scrapy.Field()
+
 
 
